@@ -88,6 +88,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/hello-world-angular",
+            "netlifyToken": "nfp_QGNE2iXffcrqLueqa1LGaM8BzoUryTue4381",
+            "siteId": ""
+          }
         }
       }
     }
